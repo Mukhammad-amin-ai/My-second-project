@@ -1,0 +1,679 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container .navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    border: 1px transparent;
+    align-items: center;
+    gap: 70%;
+}
+
+.container .navbar .left {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.container .navbar .right {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .navbar .right button {
+    width: 153px;
+    height: 58px;
+    background-color: #FFB5A7;
+    border: transparent;
+    cursor: pointer;
+}
+
+.container .navbar .right button a {
+    color: #FFFFFF;
+}
+
+.container .bush {
+    width: 100%;
+    height: 60vh;
+    background-color: #F3F4F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .bush h1 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 83px;
+    /* identical to box height, or 149% */
+
+    text-align: center;
+    letter-spacing: 1.92px;
+
+    color: #1E212B;
+}
+
+.container .bush p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 145% */
+    text-align: center;
+    color: #757575;
+    padding: 20px 0 30px 0;
+}
+
+.container .bush .button {
+    width: 100%;
+    height: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .bush button {
+    width: 175px;
+    height: 26px;
+    border-radius: 4px;
+    background: #FFB5A7;
+    border: transparent;
+
+}
+
+.container .bush button a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 145% */
+    text-align: center;
+    letter-spacing: 0.18px;
+    color: #FFFFFF;
+}
+
+.container .katta {
+    cursor: pointer;
+    background-color: #F3F4F5;
+    padding-left: 50px;
+    
+}
+
+
+
+
+.container .text {
+    width: 1152px;
+    height: 126px;
+    margin: 15%;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    padding-right: 200px;
+    
+}
+
+.container .text .tleft pre {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 55px;
+    color: #1E212B;
+    /* identical to box height, or 115% */
+}
+
+.container .text .tleft h2 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 55px;
+    color: #1E212B;
+    /* identical to box height, or 115% */
+}
+
+
+.container .text .tright pre {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #757575;
+    
+}
+
+
+.container .texts {
+    width: 75%;
+    height: 30%;
+    margin: 15%;
+    display: inline-block;
+    
+    
+   
+   
+}
+
+.container .texts .top{
+    width: 552px;
+    height: 189px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-left: 135px;
+}
+.container .texts .top .boxL{
+    width: 100%;
+    height: 100%;
+ 
+
+}
+
+.container .texts .top .boxL img{
+    padding-left: 100px;
+}
+
+
+
+.container .texts .top .boxL .one{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    /* identical to box height, or 156% */
+    letter-spacing: 0.72px;
+    /* padding: 10px 0 10px 0; */
+    color: #1E212B;
+    padding-left: 100px;
+}
+
+.container .texts .top .boxL pre {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 145% */
+    color: #757575;
+    padding-bottom: 50px;
+    margin-right:1000px;
+    text-align: start;
+}
+.container .texts .top .boxR{
+    width: 100%;
+    height: 100%;
+    padding-left: 110px;
+
+}
+
+.container .texts .top .boxR img{
+    padding-left: 100px;
+}
+
+
+
+.container .texts .top .boxR .one{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    /* identical to box height, or 156% */
+    letter-spacing: 0.72px;
+    /* padding: 10px 0 10px 0; */
+    color: #1E212B;
+    padding-left: 100px;
+}
+
+.container .texts .top .boxR pre {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 145% */
+    color: #757575;
+    padding-bottom: 50px;
+    margin-right:1000px;
+    text-align: start;
+}
+.container .texts .bot{
+    width: 552px;
+    height: 189px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%; */
+    padding-top: 50px;
+    padding-left: 120px;
+
+}
+
+.container .texts .bot .bboxL{
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+
+}
+
+.container .texts .bot .bboxL img{
+    padding-left: 105px;
+}
+
+
+
+.container .texts .bot .bboxL .one{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    /* identical to box height, or 156% */
+    letter-spacing: 0.72px;
+    /* padding: 10px 0 10px 0; */
+    color: #1E212B;
+    padding-left: 100px;
+}
+
+.container .texts .bot .bboxL pre {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 145% */
+    color: #757575;
+    padding-bottom: 50px;
+    margin-right:1000px;
+    text-align: start;
+}
+
+.container .texts .bot{
+    width: 552px;
+    height: 189px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 50px;
+
+}
+
+.container .texts .bot .bboxR{
+    width: 100%;
+    height: 100%;
+    padding-left: 120px ;
+
+}
+
+.container .texts .bot .bboxR img{
+    padding-left: 100px;
+}
+
+
+
+.container .texts .bot .bboxR .one{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    /* identical to box height, or 156% */
+    letter-spacing: 0.72px;
+    /* padding: 10px 0 10px 0; */
+    color: #1E212B;
+    padding-left: 100px;
+}
+
+.container .texts .bot .bboxR pre {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 145% */
+    color: #757575;
+    padding-bottom: 50px;
+    margin-right:1000px;
+    text-align: start;
+}
+
+
+.container .portfolio {
+    width: 75%;
+    height: 100vh;
+    margin-left: 15%;
+    /* background-color: aqua; */
+    display: block;
+}
+
+.container .portfolio .ptext {
+    width: 100%;
+    height: 20%;
+    display: block;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .portfolio .ptext h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 115% */
+
+    text-align: center;
+    letter-spacing: 1.26px;
+    text-transform: uppercase;
+
+    color: #B7BCCB;
+
+}
+
+.container .portfolio .ptext h2 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 55px;
+    /* identical to box height, or 117% */
+    text-align: center;
+    color: #1E212B;
+    padding: 5px 0 10px 0;
+}
+
+.container .portfolio .ptext p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    /* identical to box height, or 154% */
+    text-align: center;
+    color: #757575;
+}
+
+.container .portfolio img {
+    width: 357px;
+    height: 280px;
+}
+
+.container .portfolio .qator {
+    width: 100%;
+    max-height: auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 50px;
+}
+
+.container .portfolio .qator .qleft {
+    width: 40%;
+    max-height: auto;
+
+}
+
+.container .portfolio .qator h1 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.72px;
+    color: #1E212B;
+}
+
+.container .portfolio .qator .qright {
+    width: 40%;
+    max-height: auto;
+}
+
+
+.container .details {
+    width: 75%;
+    height: 100%;
+    margin-left: 15%;
+    display: block;
+    padding-top: 100%;
+}
+
+.container .details .dtext {
+    width: 100%;
+    height: 20%;
+    /* display: block; */
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .details .dtext h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 115% */
+
+    text-align: center;
+    letter-spacing: 1.26px;
+    text-transform: uppercase;
+
+    color: #B7BCCB;
+
+}
+
+.container .details .dtext h2 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 55px;
+    /* identical to box height, or 117% */
+    text-align: center;
+    color: #1E212B;
+    padding: 5px 0 10px 0;
+}
+
+.container .details .dtext p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    /* identical to box height, or 154% */
+    text-align: center;
+    color: #757575;
+}
+
+.container .details .dgalery .dqator {
+    width: 100%;
+    max-height: auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 50px;
+}
+
+.container .amazing {
+    width: 75%;
+    height: 30%;
+    margin-left: 15%;
+    padding-top: 10%;
+
+}
+
+.container .amazing h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 115% */
+
+    text-align: center;
+    letter-spacing: 1.26px;
+    text-transform: uppercase;
+
+    color: #B7BCCB;
+}
+
+.container .amazing h1 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    /* or 115% */
+
+    text-align: center;
+    padding-top: 20px;
+    color: #1E212B;
+}
+
+.container .amazing button {
+    width: 152px;
+    height: 26px;
+    background-color: #FFB5A7;
+    border: transparent;
+    border-radius: 4px;
+
+}
+
+.container .amazing .buton2 {
+
+    padding-top: 30px;
+    width: 100%;
+    height: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .amazing .buton2 a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 145% */
+
+    text-align: center;
+    letter-spacing: 0.18px;
+
+    color: #FFFFFF;
+}
+
+.container .amazing .png {
+    padding-top: 70px;
+    padding-left: 150px;
+}
+
+
+.container .footer {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    /* background-color: aqua; */
+    padding-top: 100px;
+   
+}
+
+.container .footer {
+    display: flex;
+    gap: 250px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    
+}
+
+.container .footer li {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    /* identical to box height, or 174% */
+
+    letter-spacing: 0.16px;
+
+    color: #757575;
+}
+
+.container .footer .galati {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    letter-spacing: 0.18px;
+    color: #1E212B;
+}
+
+.container .footer .forma input {
+    width: 329px;
+    height: 57px;
+
+    background: #FFFFFF;
+    border: 1px solid #F3F4F5;
+    border-radius: 4px;
+    padding-bottom: 5p;
+}
+.container .footer .forma .qora{
+    background: #757575;
+}
+.container  .about{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 50%;
+    padding-left: 210px;
+    padding-top: 20px;
+}
+.container  .about .aright{
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+}
